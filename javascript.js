@@ -19,6 +19,10 @@ function lampbroken(){
     lamp.src = './img/quebrada.jpg';
 }
 
+// function islampBroken(){
+//     return lamp.src.indexOf ('quebrada') > -1
+// }
+
 //"ouvindo o click"
 turnOn.addEventListener ('click', lampOn); // quando clicar, mudar img
 turnOff.addEventListener ('click', lampOff); // quando clicar, mudar img
